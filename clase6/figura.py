@@ -21,6 +21,8 @@ class Figura:
     def __init__(self, ancho):
         self.ancho = ancho
     
+    #metodos abstractos
+    #se define el metodo pero no se entrega el comportamioento, cada clase lo define
     def dibujar(self):
         pass
 
@@ -50,7 +52,7 @@ class Circulo(Figura):
         print("Dibujamos un circulo")
     
     def calcular_area(self):
-        return (self.PI**2)*(self.ancho/2)
+        return (self.PI)*((self.ancho/2)**2) #pi r**2, 2pir perimetro
     
 class Triangulo(Figura):
     #asumimos ancho como la base del trriangulo

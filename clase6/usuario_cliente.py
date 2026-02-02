@@ -1,9 +1,10 @@
 """
 ¿En qué consistirá la Demo?
-Vas a crear una jerarquía de clases (Usuario, Administrador, Cliente) y usar isinstance() para aplicar acciones según el tipo de objeto
+Vas a crear una jerarquía de clases (Usuario,
+ Administrador, Cliente) y usar isinstance() 
+para aplicar acciones según el tipo de objeto
 
 🔹 Clases involucradas:
-
 Clase base Usuario:
 
 Método saludar() común a todos
@@ -23,10 +24,7 @@ Si es Administrador → llamar acceder_panel()
 Si es Cliente → llamar realizar_compra()
 Si es Usuario → llamar solo saludar()
 
-
-
 """
-
 
 class Usuario:
     def __init__(self,nombre):
@@ -42,7 +40,9 @@ class Administrador(Usuario):
     def acceder_panel(self):
         print("Administrador accedido correctamente")
         return True
-    
+
+class Soporte(Usuario):
+    print("Mayor  poder que el usuario y menor que el administrador")    
 
 class Cliente(Usuario):
     def __init__(self, nombre):
