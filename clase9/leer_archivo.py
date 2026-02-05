@@ -44,8 +44,8 @@ archivo.close()
 
 # #para escribir 50 lineas
 
-# # for i in range(50):
-# #     archivo = open('pruebaw.txt', 'a')
-# #     # print(archivo.read()) #cuando abrimos el archivo en el modo w, no se puede leer es el modo escritura
-# #     archivo.write("Soy otro texto\n")
-# #     archivo.close() 
+# for i in range(50):
+#     archivo = open('pruebaw.txt', 'a')
+#     # print(archivo.read()) #cuando abrimos el archivo en el modo w, no se puede leer es el modo escritura
+#     archivo.write("Soy otro texto\n")
+#     archivo.close() 

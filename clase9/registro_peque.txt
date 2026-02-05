@@ -1,0 +1,5 @@
+ID:01 | Usuario:juan | Accion:LOGIN | Estado:OK
+ID:02 | Usuario:maria | Accion:LOGIN | Estado:FAIL
+ID:03 | Usuario:admin | Accion:DELETE | Estado:OK
+ID:04 | Usuario:juan | Accion:UPLOAD | Estado:OK
+ID:05 | Usuario:maria | Accion:LOGIN | Estado:OK
