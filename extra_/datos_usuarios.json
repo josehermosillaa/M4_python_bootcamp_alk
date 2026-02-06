@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "jose",
+        "edad": 34,
+        "direcicon": "Av siempre viva 766, SpringField"
+    },
+    {
+        "nombre": "pedrito",
+        "edad": 18,
+        "direcicon": "otro, SpringField"
+    },
+    {
+        "nombre": "ana",
+        "edad": 24,
+        "direcicon": "otro, SpringField"
+    }
+]
